@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de9da4fbcfadb2d34bbca35a52d7dd27",
-    "content-hash": "9ef6510a8d55436e67a402704ba31aaa",
+    "hash": "34819fec9cfd2276ce9260d75c2229d1",
+    "content-hash": "f26f9d22072d21693683308be7a7f226",
     "packages": [
         {
             "name": "acclimate/container",
@@ -125,55 +125,6 @@
             "time": "2013-06-21 15:51:20"
         },
         {
-            "name": "alexbilbie/mongoqb",
-            "version": "1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alexbilbie/MongoQB.git",
-                "reference": "ad50d6158d9db230c8d0865b332d7b84f0031d85"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/alexbilbie/MongoQB/ad50d6158d9db230c8d0865b332d7b84f0031d85.zip",
-                "reference": "ad50d6158d9db230c8d0865b332d7b84f0031d85",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "MongoQB": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Bilbie",
-                    "email": "hello@alexbilbie.com",
-                    "homepage": "http://www.alexbilbie.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Mongo Query Builder",
-            "homepage": "https://github.com/alexbilbie/MongoQB",
-            "keywords": [
-                "database",
-                "db",
-                "mongo",
-                "mongodb"
-            ],
-            "abandoned": "league/monga",
-            "time": "2012-11-28 09:16:00"
-        },
-        {
             "name": "andrewsville/php-token-reflection",
             "version": "1.4.0",
             "source": {
@@ -270,24 +221,24 @@
         },
         {
             "name": "asm89/twig-cache-extension",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asm89/twig-cache-extension.git",
-                "reference": "92edc2ab522997fd0a2a02b6b9e89b3e08ac5c60"
+                "reference": "127410728db193a88254c399e3455274fc05fa5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/asm89/twig-cache-extension/92edc2ab522997fd0a2a02b6b9e89b3e08ac5c60.zip",
-                "reference": "92edc2ab522997fd0a2a02b6b9e89b3e08ac5c60",
+                "url": "http://packagist.phpcomposer.com/files/asm89/twig-cache-extension/127410728db193a88254c399e3455274fc05fa5d.zip",
+                "reference": "127410728db193a88254c399e3455274fc05fa5d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "twig/twig": "1.*"
+                "twig/twig": "~1.0"
             },
             "require-dev": {
-                "doctrine/cache": "1.*"
+                "doctrine/cache": "~1.0"
             },
             "type": "library",
             "extra": {
@@ -296,8 +247,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Asm89\\Twig\\CacheExtension\\": "lib/"
+                "psr-4": {
+                    "": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -307,18 +258,17 @@
             "authors": [
                 {
                     "name": "Alexander",
-                    "email": "iam.asm89@gmail.com",
-                    "homepage": "http://asm89.github.io/"
+                    "email": "iam.asm89@gmail.com"
                 }
             ],
-            "description": "Caching template fragments with Twig.",
+            "description": "Cache fragments of templates directly within Twig.",
             "homepage": "https://github.com/asm89/twig-cache-extension",
             "keywords": [
                 "cache",
                 "extension",
                 "twig"
             ],
-            "time": "2014-05-31 13:57:16"
+            "time": "2015-10-17 11:55:02"
         },
         {
             "name": "baum/baum",
@@ -1669,16 +1619,16 @@
         },
         {
             "name": "fabpot/php-cs-fixer",
-            "version": "v1.10",
+            "version": "v1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "8e21b4fb32c4618a425817d9f0daf3d57a9808d1"
+                "reference": "12dbcd1462f1e3a5a96c6c7398af26b28e092a8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/FriendsOfPHP/PHP-CS-Fixer/8e21b4fb32c4618a425817d9f0daf3d57a9808d1.zip",
-                "reference": "8e21b4fb32c4618a425817d9f0daf3d57a9808d1",
+                "url": "http://packagist.phpcomposer.com/files/FriendsOfPHP/PHP-CS-Fixer/12dbcd1462f1e3a5a96c6c7398af26b28e092a8a.zip",
+                "reference": "12dbcd1462f1e3a5a96c6c7398af26b28e092a8a",
                 "shasum": ""
             },
             "require": {
@@ -1719,7 +1669,7 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2015-07-27 20:56:10"
+            "time": "2015-10-12 20:13:46"
         },
         {
             "name": "fuelphp/event",
@@ -1956,16 +1906,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "97fe7210def29451ec74923b27e552238defd75a"
+                "reference": "b1e1c0d55f8083c71eda2c28c12a228d708294ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/guzzle/promises/97fe7210def29451ec74923b27e552238defd75a.zip",
-                "reference": "97fe7210def29451ec74923b27e552238defd75a",
+                "url": "http://packagist.phpcomposer.com/files/guzzle/promises/b1e1c0d55f8083c71eda2c28c12a228d708294ea.zip",
+                "reference": "b1e1c0d55f8083c71eda2c28c12a228d708294ea",
                 "shasum": ""
             },
             "require": {
@@ -2003,7 +1953,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2015-08-15 19:37:21"
+            "time": "2015-10-15 22:28:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -3357,16 +3307,16 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v5.1.16",
+            "version": "v5.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "1b63e829eba104077ed3a79160dfd11d5357e851"
+                "reference": "785d0fc5897feddf74ceea0cb07f6bdad4e03437"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/illuminate/console/1b63e829eba104077ed3a79160dfd11d5357e851.zip",
-                "reference": "1b63e829eba104077ed3a79160dfd11d5357e851",
+                "url": "http://packagist.phpcomposer.com/files/illuminate/console/785d0fc5897feddf74ceea0cb07f6bdad4e03437.zip",
+                "reference": "785d0fc5897feddf74ceea0cb07f6bdad4e03437",
                 "shasum": ""
             },
             "require": {
@@ -3404,20 +3354,20 @@
             ],
             "description": "The Illuminate Console package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-12 14:49:07"
+            "time": "2015-10-05 21:58:27"
         },
         {
             "name": "illuminate/container",
-            "version": "v5.1.16",
+            "version": "v5.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "66621248395705cc64bc1ce9262b99b4bfa606f2"
+                "reference": "4ecdb3df4de7a4587914f44c8e3a129a12ba6eb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/illuminate/container/66621248395705cc64bc1ce9262b99b4bfa606f2.zip",
-                "reference": "66621248395705cc64bc1ce9262b99b4bfa606f2",
+                "url": "http://packagist.phpcomposer.com/files/illuminate/container/4ecdb3df4de7a4587914f44c8e3a129a12ba6eb4.zip",
+                "reference": "4ecdb3df4de7a4587914f44c8e3a129a12ba6eb4",
                 "shasum": ""
             },
             "require": {
@@ -3447,20 +3397,20 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-26 23:00:38"
+            "time": "2015-09-24 11:16:48"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.1.16",
+            "version": "v5.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "610aea16e3d91dfd85db4cf43703403a83b7cba2"
+                "reference": "e2b71fdbeeb3438748dca5f497e205888788a883"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/illuminate/contracts/610aea16e3d91dfd85db4cf43703403a83b7cba2.zip",
-                "reference": "610aea16e3d91dfd85db4cf43703403a83b7cba2",
+                "url": "http://packagist.phpcomposer.com/files/illuminate/contracts/e2b71fdbeeb3438748dca5f497e205888788a883.zip",
+                "reference": "e2b71fdbeeb3438748dca5f497e205888788a883",
                 "shasum": ""
             },
             "require": {
@@ -3489,20 +3439,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-31 12:59:22"
+            "time": "2015-09-24 11:16:48"
         },
         {
             "name": "illuminate/database",
-            "version": "v5.1.16",
+            "version": "v5.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "7655e39c507776c9b9226a8f5619ed9933d3396e"
+                "reference": "874e959d29bb8a93a5a9549241d4292fe8a17332"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/illuminate/database/7655e39c507776c9b9226a8f5619ed9933d3396e.zip",
-                "reference": "7655e39c507776c9b9226a8f5619ed9933d3396e",
+                "url": "http://packagist.phpcomposer.com/files/illuminate/database/874e959d29bb8a93a5a9549241d4292fe8a17332.zip",
+                "reference": "874e959d29bb8a93a5a9549241d4292fe8a17332",
                 "shasum": ""
             },
             "require": {
@@ -3548,20 +3498,20 @@
                 "orm",
                 "sql"
             ],
-            "time": "2015-09-03 14:53:32"
+            "time": "2015-10-13 22:42:48"
         },
         {
             "name": "illuminate/events",
-            "version": "v5.1.16",
+            "version": "v5.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "851c2351401145d81674991fe8491d560e620ec6"
+                "reference": "fdb64e091b635bf1525c157f1cfdd19cbca508c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/illuminate/events/851c2351401145d81674991fe8491d560e620ec6.zip",
-                "reference": "851c2351401145d81674991fe8491d560e620ec6",
+                "url": "http://packagist.phpcomposer.com/files/illuminate/events/fdb64e091b635bf1525c157f1cfdd19cbca508c9.zip",
+                "reference": "fdb64e091b635bf1525c157f1cfdd19cbca508c9",
                 "shasum": ""
             },
             "require": {
@@ -3593,20 +3543,20 @@
             ],
             "description": "The Illuminate Events package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-08 13:06:30"
+            "time": "2015-09-23 13:19:23"
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.1.16",
+            "version": "v5.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "b93043ad8efe4a2ccd0bb202d8493255bb865720"
+                "reference": "43032afcbc57cc31a7c6a423e7420cb09a941df2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/illuminate/filesystem/b93043ad8efe4a2ccd0bb202d8493255bb865720.zip",
-                "reference": "b93043ad8efe4a2ccd0bb202d8493255bb865720",
+                "url": "http://packagist.phpcomposer.com/files/illuminate/filesystem/43032afcbc57cc31a7c6a423e7420cb09a941df2.zip",
+                "reference": "43032afcbc57cc31a7c6a423e7420cb09a941df2",
                 "shasum": ""
             },
             "require": {
@@ -3643,20 +3593,20 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-24 08:44:48"
+            "time": "2015-10-13 14:34:04"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.1.16",
+            "version": "v5.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "c5389968d48517b3b51cfd8cd4abd72f0cc1575b"
+                "reference": "cf634d1b61d80ea1d7749ef71e0ab3c088931463"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/illuminate/support/c5389968d48517b3b51cfd8cd4abd72f0cc1575b.zip",
-                "reference": "c5389968d48517b3b51cfd8cd4abd72f0cc1575b",
+                "url": "http://packagist.phpcomposer.com/files/illuminate/support/cf634d1b61d80ea1d7749ef71e0ab3c088931463.zip",
+                "reference": "cf634d1b61d80ea1d7749ef71e0ab3c088931463",
                 "shasum": ""
             },
             "require": {
@@ -3668,6 +3618,7 @@
             },
             "suggest": {
                 "jeremeamia/superclosure": "Required to be able to serialize closures (~2.0).",
+                "paragonie/random_compat": "Provides a compatible interface like PHP7's random_bytes() in PHP 5 projects (^1.0.4).",
                 "symfony/var-dumper": "Required to use the dd function (2.7.*)."
             },
             "type": "library",
@@ -3696,7 +3647,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-09-03 15:47:41"
+            "time": "2015-10-12 17:24:03"
         },
         {
             "name": "intervention/image",
@@ -4022,12 +3973,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/katzgrau/KLogger.git",
-                "reference": "f5bdaece0efe385ab0cec9e5a65ffe88e23e7f1a"
+                "reference": "63458c0a547ed5ef80deaea4fe37ef342c583db8"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/katzgrau/KLogger/f5bdaece0efe385ab0cec9e5a65ffe88e23e7f1a.zip",
-                "reference": "f5bdaece0efe385ab0cec9e5a65ffe88e23e7f1a",
+                "url": "http://packagist.phpcomposer.com/files/katzgrau/KLogger/63458c0a547ed5ef80deaea4fe37ef342c583db8.zip",
+                "reference": "63458c0a547ed5ef80deaea4fe37ef342c583db8",
                 "shasum": ""
             },
             "require": {
@@ -4064,7 +4015,7 @@
             "keywords": [
                 "logging"
             ],
-            "time": "2015-09-21 18:10:26"
+            "time": "2015-10-06 21:06:55"
         },
         {
             "name": "kherge/amend",
@@ -4123,16 +4074,16 @@
         },
         {
             "name": "kherge/box",
-            "version": "2.5.3",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/box-project/box2.git",
-                "reference": "27685671901b76bfa871b698487fc8c217df34dc"
+                "reference": "34259e688bad430cf6e4418d4682d7650c7b90f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/box-project/box2/27685671901b76bfa871b698487fc8c217df34dc.zip",
-                "reference": "27685671901b76bfa871b698487fc8c217df34dc",
+                "url": "http://packagist.phpcomposer.com/files/box-project/box2/34259e688bad430cf6e4418d4682d7650c7b90f1.zip",
+                "reference": "34259e688bad430cf6e4418d4682d7650c7b90f1",
                 "shasum": ""
             },
             "require": {
@@ -4143,7 +4094,7 @@
                 "kherge/amend": "~3.0",
                 "phine/path": "~1.0",
                 "php": ">=5.3.3",
-                "phpseclib/phpseclib": "~0.3",
+                "phpseclib/phpseclib": "~2.0",
                 "symfony/console": "~2.1",
                 "symfony/finder": "~2.1",
                 "symfony/process": "~2.1"
@@ -4186,7 +4137,7 @@
             "keywords": [
                 "phar"
             ],
-            "time": "2015-08-31 18:10:42"
+            "time": "2015-10-15 02:20:44"
         },
         {
             "name": "knplabs/gaufrette",
@@ -4339,16 +4290,16 @@
         },
         {
             "name": "kriswallsmith/assetic",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "56cb5d6dec9e7a68a4da2fa89844f39d41092f31"
+                "reference": "cb92b179dddfb8a3f341d53bd27e088f24d9c2e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/kriswallsmith/assetic/56cb5d6dec9e7a68a4da2fa89844f39d41092f31.zip",
-                "reference": "56cb5d6dec9e7a68a4da2fa89844f39d41092f31",
+                "url": "http://packagist.phpcomposer.com/files/kriswallsmith/assetic/cb92b179dddfb8a3f341d53bd27e088f24d9c2e5.zip",
+                "reference": "cb92b179dddfb8a3f341d53bd27e088f24d9c2e5",
                 "shasum": ""
             },
             "require": {
@@ -4384,7 +4335,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -4413,7 +4364,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-08-31 19:07:16"
+            "time": "2015-10-15 01:33:42"
         },
         {
             "name": "kriswallsmith/buzz",
@@ -4768,16 +4719,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.1",
+            "version": "1.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422"
+                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/Seldaek/monolog/0524c87587ab85bc4c2d6f5b41253ccb930a5422.zip",
-                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422",
+                "url": "http://packagist.phpcomposer.com/files/Seldaek/monolog/bee7f0dc9c3e0b69a6039697533dca1e845c8c24.zip",
+                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
                 "shasum": ""
             },
             "require": {
@@ -4791,10 +4742,11 @@
                 "aws/aws-sdk-php": "^2.4.9",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
                 "php-console/php-console": "^3.1.3",
                 "phpunit/phpunit": "~4.5",
                 "phpunit/phpunit-mock-objects": "2.3.0",
-                "raven/raven": "~0.11",
+                "raven/raven": "^0.13",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "swiftmailer/swiftmailer": "~5.3",
                 "videlalvaro/php-amqplib": "~2.4"
@@ -4840,7 +4792,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-08-31 09:17:37"
+            "time": "2015-10-14 12:51:02"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5355,36 +5307,6 @@
             "time": "2015-01-30 19:07:38"
         },
         {
-            "name": "phpcheckstyle/phpcheckstyle",
-            "version": "V0.14.3",
-            "source": {
-                "type": "svn",
-                "url": "http://svn.code.sf.net/p/phpcheckstyle/code",
-                "reference": "/tags/V0.14.3/@331"
-            },
-            "require": {
-                "php": ">=5.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "PHPCheckstyle\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-2.1"
-            ],
-            "description": "PHPCheckstyle is an open-source tool that helps PHP programmers adhere to certain coding conventions",
-            "homepage": "http://sourceforge.net/projects/phpcheckstyle/",
-            "keywords": [
-                "checkstyle",
-                "convention",
-                "standard"
-            ],
-            "time": "2015-08-28 12:29:08"
-        },
-        {
             "name": "phpdocumentor/reflection-docblock",
             "version": "2.0.4",
             "source": {
@@ -5488,49 +5410,39 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "0.3.10",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4"
+                "reference": "a74aa9efbe61430fcb60157c8e025a48ec8ff604"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/phpseclib/phpseclib/d15bba1edcc7c89e09cc74c5d961317a8b947bf4.zip",
-                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
+                "url": "http://packagist.phpcomposer.com/files/phpseclib/phpseclib/a74aa9efbe61430fcb60157c8e025a48ec8ff604.zip",
+                "reference": "a74aa9efbe61430fcb60157c8e025a48ec8ff604",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.0.0"
+                "php": ">=5.3.3"
             },
             "require-dev": {
                 "phing/phing": "~2.7",
                 "phpunit/phpunit": "~4.0",
                 "sami/sami": "~2.0",
-                "squizlabs/php_codesniffer": "~1.5"
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
                 "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
-                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations.",
-                "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP < 4.3.3."
+                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations.",
+                "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP < 5.0.0."
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.3-dev"
-                }
-            },
             "autoload": {
-                "psr-0": {
-                    "Crypt": "phpseclib/",
-                    "File": "phpseclib/",
-                    "Math": "phpseclib/",
-                    "Net": "phpseclib/",
-                    "System": "phpseclib/"
-                },
-                "files": [
-                    "phpseclib/Crypt/Random.php"
-                ]
+                "psr-4": {
+                    "phpseclib\\": "phpseclib/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "include-path": [
@@ -5582,7 +5494,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2015-01-28 21:50:33"
+            "time": "2015-08-04 04:48:03"
         },
         {
             "name": "phpsgi/phpsgi",
@@ -5959,16 +5871,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.0.5",
+            "version": "5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "65134b2c2e47f48a9afb54a28f67b4d46a2304d1"
+                "reference": "d2656ec378c88e036b3fc14fb4262ee1a25498c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/sebastianbergmann/phpunit/65134b2c2e47f48a9afb54a28f67b4d46a2304d1.zip",
-                "reference": "65134b2c2e47f48a9afb54a28f67b4d46a2304d1",
+                "url": "http://packagist.phpcomposer.com/files/sebastianbergmann/phpunit/d2656ec378c88e036b3fc14fb4262ee1a25498c9.zip",
+                "reference": "d2656ec378c88e036b3fc14fb4262ee1a25498c9",
                 "shasum": ""
             },
             "require": {
@@ -6029,20 +5941,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-12 03:40:23"
+            "time": "2015-10-14 13:51:20"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.0.0",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "b66bfd55201aa33e8096d8c9bcb762361521c301"
+                "reference": "382c729a52b7ef682e94c73fd6868f5ee8116ba7"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/sebastianbergmann/phpunit-mock-objects/b66bfd55201aa33e8096d8c9bcb762361521c301.zip",
-                "reference": "b66bfd55201aa33e8096d8c9bcb762361521c301",
+                "url": "http://packagist.phpcomposer.com/files/sebastianbergmann/phpunit-mock-objects/382c729a52b7ef682e94c73fd6868f5ee8116ba7.zip",
+                "reference": "382c729a52b7ef682e94c73fd6868f5ee8116ba7",
                 "shasum": ""
             },
             "require": {
@@ -6085,7 +5997,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-10-01 06:43:55"
+            "time": "2015-10-18 07:55:54"
         },
         {
             "name": "pimple/pimple",
@@ -8427,16 +8339,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.22.2",
+            "version": "v1.22.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "79249fc8c9ff62e41e217e0c630e2e00bcadda6a"
+                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/twigphp/Twig/79249fc8c9ff62e41e217e0c630e2e00bcadda6a.zip",
-                "reference": "79249fc8c9ff62e41e217e0c630e2e00bcadda6a",
+                "url": "http://packagist.phpcomposer.com/files/twigphp/Twig/ebfc36b7e77b0c1175afe30459cf943010245540.zip",
+                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540",
                 "shasum": ""
             },
             "require": {
@@ -8484,7 +8396,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-09-22 13:59:32"
+            "time": "2015-10-13 07:07:02"
         },
         {
             "name": "vlucas/spot2",
@@ -9420,16 +9332,16 @@
         },
         {
             "name": "latte/latte",
-            "version": "v2.3.5",
+            "version": "v2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/latte.git",
-                "reference": "3d47b0af6967c99df203e98cce6201b5d84b5ea4"
+                "reference": "91b1381c8b3a55517819be07baf2bdb888c5eb1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/nette/latte/3d47b0af6967c99df203e98cce6201b5d84b5ea4.zip",
-                "reference": "3d47b0af6967c99df203e98cce6201b5d84b5ea4",
+                "url": "http://packagist.phpcomposer.com/files/nette/latte/91b1381c8b3a55517819be07baf2bdb888c5eb1e.zip",
+                "reference": "91b1381c8b3a55517819be07baf2bdb888c5eb1e",
                 "shasum": ""
             },
             "require": {
@@ -9471,7 +9383,7 @@
                 "templating",
                 "twig"
             ],
-            "time": "2015-10-09 15:29:11"
+            "time": "2015-10-12 18:41:46"
         },
         {
             "name": "michelf/php-markdown",
@@ -9573,16 +9485,16 @@
         },
         {
             "name": "nette/application",
-            "version": "v2.3.6",
+            "version": "v2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/application.git",
-                "reference": "68db80ce58a5039656f11409acc597a4ea8d817d"
+                "reference": "8e87ae81c2098abd7895bfd96d9fac1cd332abc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/nette/application/68db80ce58a5039656f11409acc597a4ea8d817d.zip",
-                "reference": "68db80ce58a5039656f11409acc597a4ea8d817d",
+                "url": "http://packagist.phpcomposer.com/files/nette/application/8e87ae81c2098abd7895bfd96d9fac1cd332abc3.zip",
+                "reference": "8e87ae81c2098abd7895bfd96d9fac1cd332abc3",
                 "shasum": ""
             },
             "require": {
@@ -9631,7 +9543,7 @@
             ],
             "description": "Nette Application MVC Component",
             "homepage": "https://nette.org",
-            "time": "2015-10-09 14:57:21"
+            "time": "2015-10-13 14:33:28"
         },
         {
             "name": "nette/bootstrap",
