@@ -82,7 +82,9 @@
         "ocramius/proxy-manager": "1.0.*",
         "league/monga": "*",
 
-        "league/monga": "^1.2"
+        "league/monga": "^1.2",
+        "nikic/fast-route": "^0.6.0",
+        "klein/klein": "^2.1"
 
 
     },
@@ -92,7 +94,6 @@
         "athletic/athletic":"0.1"
     },
     "autoload":{
-        "classmap":["Library"],
         "psr-4":{
             "App\\":"App/"
         }
