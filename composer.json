@@ -20,6 +20,11 @@
         "php" : ">=5.5.9",
         "ext-mbstring" : "*",
         "ext-fileinfo": "*",
+        "league/url": "^3.3",
+        "shampeak/request":"dev-master",
+
+
+
         "jwage/purl": "^0.0.6",
         "phpsgi/phpsgi": "dev-master",
         "corneltek/pux": "2.0.x-dev",
@@ -84,15 +89,16 @@
         "ocramius/proxy-manager": "1.0.*",
         "league/monga": "^1.2",
         "nikic/fast-route": "^0.6.0",
-        "klein/klein": "^2.1",
-        "league/url": "^3.3",
-        "shampeak/request":"dev-master"
+        "klein/klein": "^2.1"
     },
     "require-dev": {
+
         "apigen/apigen": "^4.1",
         "devster/ubench": "1.1.*",
         "athletic/athletic":"0.1",
         "php-vcr/php-vcr": "^1.2"
+
+
     },
     "autoload":{
         "psr-4":{
