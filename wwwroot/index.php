@@ -16,121 +16,164 @@
 |
 */
 include "../vendor/autoload.php";
-use App\F;
-
-
-$req = new Sham\Request() ;
-
-$get = $req->get();       //GET????
-$path1 = $req->getPath(); //path????
-$path2 = $req->getPath()->toArray();
-
-echo '<pre>';
-print_r($get);
-echo $path1;
-print_r($path2);
-echo '</pre>';
-
-//$req = new Request();
-//
 
 
 
 
+# Get Markdown class
+use \Michelf\Markdown;
+
+# Read file and pass content through the Markdown parser
+$text = file_get_contents('../README.md');
+$html = Markdown::defaultTransform($text);
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Markdown Lib - Readme</title>
+    <script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js" charset="UTF-8"></script>
+
+<!--    
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css">
+-->
+  <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">  
+  <link href="http://cdn.bootcss.com/bootstrap-markdown/2.9.0/css/bootstrap-markdown.min.css" rel="stylesheet">  
+  
+  
+    <link href="./markdown.css" rel="stylesheet">  
+  
+  
+  
+    <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>  
+    
+	  <link href="/assets/as_doc/style-api-v2-cbb8772a.css" rel="stylesheet" type="text/css" />
+	  <link href="/assets/as_doc/pikabu-22255a87.css" rel="stylesheet" type="text/css" />
+	  <link href="/assets/as_doc/mobile-menu-be990f4f.css" rel="stylesheet" type="text/css" />    
+    
+    
+    
+</head>
+<body>
+
+<pre><code>
+
+    ```html
+    import Foundation
+
+    @objc class Person: Entity {
+      var name: String!
+      var age:  Int!
+    
+      init(name: String, age: Int) {
+        /* /* ... */ */
+      }
+    
+      // Return a descriptive string for this person
+      func description(offset: Int = 0) -> String {
+        return "\(name) is \(age + offset) years old"
+      }
+    }
+
+    ```
+
+</code></pre>
+
+
+<pre><code>
+    public static function getInstance($refresh = false)
+    {
+        if (is_null(self::$environment) || $refresh) {
+            self::$environment = new self();
+        }
+        return self::$environment;
+    }
+</code></pre>
+
+
+<?php
+# Put HTML content in the document
+echo $html;
+?>
 
 
 
 
+  <script >
+	$(document).ready(function()
+	{	
+		hljs.initHighlightingOnLoad();
+	})
+  
+  </script>  
 
 
-
-
-
-
-
-
-
+</body>
+</html>
+<?php
 exit;
-
-
-
-
-
-
-$url = Url::createFromUrl(
-    'http://user:pass@www.example.com:81/path/index.php?query=toto+le+heros#top'
-);
-//
-//let update the Query String
-$query = $url->getQuery();
-
-F::D($query);
-
-
-$query->modify(array('query' => "lulu l'allumeuse", "foo" => "bar"));
-$query['sarah'] = "o connors"; //adding a new parameter
-
-$url->setScheme('ftp'); //change the URLs scheme
-$url->setFragment(null); //remove the fragment
-$url->setPort(21);
-$url->getPath()->remove('path/index.php'); //remove part of the path
-$url->getPath()->prepend('mongo db'); //prepend the path
-echo $url, PHP_EOL;
-// output ftp://user:pass@www.example.com:21/mongo%20db?query=lulu%20l%27allumeuse&foo=bar&sarah=o%20connors
-
-
-
-exit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 use Pux\Mux;
 use Pux\RouteExecutor;
+
+
+
+
+class HelloController {
+    public function helloAction() {
+        return 'product list';
+    }
+    public function itemAction($id=0) {
+        return "product $id";
+    }
+}
+
+$mux = new Mux;
+
+//$mux->add('/hello', ['\HelloController','helloAction']);
+//$mux->add('/hello1', ['\HelloController','itemAction']);
+$mux->get('/hello1', ['\HelloController','itemAction']);
+//$mux->post('/product/:id', ['ProductController','updateAction'] , [
+//    'require' => [ 'id' => '\d+', ],
+//    'default' => [ 'id' => '1', ]
+//]);
+
+
+$mux->sort();
+print_r($mux->getRoutes());
+
+$route = $mux->dispatch($_SERVER['REQUEST_URI']);
+//print_r($route);
+//print_r($mux);
+
+//\App\F::D("Response: %s\n", RouteExecutor::execute($route));
+print_r(RouteExecutor::execute($route));
+
+
+
+
+
+
+
+exit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -288,25 +331,6 @@ exit;
 
 
 
-class HelloController {
-    public function helloAction() {
-        return 'product list';
-    }
-    public function itemAction($id=0) {
-        return "product $id";
-    }
-}
-
-$mux = new Mux;
-
-$mux->add('/hello', ['\abc\HelloController','helloAction']);
-$mux->add('/hello1', ['\abc\HelloController','itemAction']);
-$mux->sort();
-//var_dump($mux->getRoutes());
-$route = $mux->dispatch($_SERVER['REQUEST_URI']);
-F::D($route);
-//\App\F::D("Response: %s\n", RouteExecutor::execute($route));
-F::D(RouteExecutor::execute($route));
 
 
 //F::D("Response: %s\n", RouteExecutor::execute($route));
